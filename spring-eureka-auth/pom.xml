@@ -49,11 +49,15 @@
 			<optional>true</optional>
 		</dependency>
 		
-		<dependency>
+		<!-- <dependency>
 			<groupId>com.eureka.common</groupId>
 			<artifactId>spring-eureka-common</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+		</dependency> -->
+		<dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
